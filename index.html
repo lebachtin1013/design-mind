@@ -5,21 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Mind Newsletter</title>
     <style>
-        * { margin: 0; padding: 0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #E7E6E6; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-        h1 { color: #404040; margin: 20px 0; }
-        .newsletter { background: white; padding: 40px; border-radius: 8px; }
-        img { max-width: 100%; height: auto; margin: 20px 0; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; background: white; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .header img { max-width: 100%; height: auto; }
+        h1 { color: #404040; margin: 20px 0; font-size: 2.5em; }
+        .intro { color: #404040; font-size: 1.1em; line-height: 1.6; margin-bottom: 40px; text-align: center; }
+        .article { margin: 60px 0; padding: 30px; background: #f9f9f9; border-radius: 8px; }
+        .article img { max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px; }
+        .article-title { font-size: 1.8em; color: #000; margin: 20px 0; font-weight: bold; }
+        .article-author { color: #7F7F7F; font-size: 0.95em; margin-bottom: 15px; }
+        .article-content { color: #404040; line-height: 1.8; margin: 20px 0; }
+        .article-link { display: inline-block; margin-top: 15px; padding: 10px 20px; background: #0070C0; color: white; text-decoration: none; border-radius: 4px; }
+        .article-link:hover { background: #005a9e; }
+        .divider { border-bottom: 2px solid #A6A6A6; margin: 40px 0; }
+        .upcoming-section { background: #BDD6EE; padding: 30px; border-radius: 8px; margin: 40px 0; }
+        .feedback-section { background: #BDD6EE; padding: 30px; border-radius: 8px; margin: 40px 0; }
+        .feedback-title { font-size: 1.8em; color: #000; margin: 20px 0; font-weight: bold; }
+        .feedback-button { display: inline-block; padding: 12px 30px; background: #000; color: white; text-decoration: none; border-radius: 4px; margin-top: 15px; }
+        .feedback-button:hover { background: #333; }
+        @media (max-width: 768px) {
+            .container { padding: 10px; }
+            h1 { font-size: 1.8em; }
+            .article { padding: 15px; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Design Mind Newsletter</h1>
-        <div class="newsletter">
-            <p>Design Mind is your invitation to peek behind the curtain of Techcombank's design excellence.</p>
-            <p>Curated by the Design Centre of Excellence.</p>
+        <!-- Header -->
+        <div class="header">
+            <img src="assets/image001.jpg" alt="Design Mind Header">
         </div>
+
+        <!-- Introduction -->
+        <div class="intro">
+            <h1>Design Mind Newsletter</h1>
+            <p>Ever wondered how Techcombank's user experience and interfaces are being crafted? Design Mind is your invitation to peek behind the curtain, curated by the Design Centre of Excellence.</p>
+        </div>
+
+        <!-- Article 1: Design System Economics -->
+        <div class="article">
+            <h2 class="article-title">The economics of a design system: why investing in one pays off</h2>
+            <p class="article-author"><strong>Hiep Dang</strong></p>
+            <img src="assets/image002.jpg" alt="Design System Economics">
+            <p class="article-content">A Design System not only accelerates product delivery but also strengthens your position in the market. Investing in a Design System is not just about keeping up; it's about leading the way.</p>
+            <a href="#" class="article-link">Go to article →</a>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Article 2: Experience Design -->
+        <div class="article">
+            <h2 class="article-title">Experience Design as a key ingredient for MOA MFT</h2>
+            <p class="article-author"><strong>Thuy Water</strong></p>
+            <img src="assets/image003.jpg" alt="Experience Design">
+            <p class="article-content">Our problem-solvers—designers and researchers powered up MOA MFT. Wonder how?</p>
+            <a href="#" class="article-link">Go to article →</a>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Article 3: Workshop -->
+        <div class="article">
+            <h2 class="article-title">DCoE Workshop: Shedding light on Social Psychology</h2>
+            <p class="article-author"><strong>Huong Do</strong></p>
+            <img src="assets/image004.jpg" alt="Social Psychology Workshop">
+            <p class="article-content">An engaging and educational Saturday morning, facilitated by the young and talented UX Designer Nguyen Kim Cuong</p>
+            <a href="#" class="article-link">Go to article →</a>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Article 4: Research -->
+        <div class="article">
+            <h2 class="article-title">Empowering TCInvest's innovation journey through research</h2>
+            <p class="article-author"><strong>Hanh Nguyen</strong></p>
+            <img src="assets/image005.jpg" alt="TCInvest Research">
+            <p class="article-content">Recognising the navigation difficulties users faced, TCInvest sought DCoE's expertise to tackle this challenge head-on</p>
+            <a href="#" class="article-link">Go to article →</a>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Upcoming Event Section -->
+        <div class="upcoming-section">
+            <img src="assets/image006.jpg" alt="Event Icon" style="width: 50px; height: 50px;">
+            <h2 class="article-title">Upcoming Event</h2>
+            <img src="assets/image007.png" alt="Design Studio Event">
+        </div>
+
+        <!-- Share Your Thoughts Section -->
+        <div class="feedback-section">
+            <img src="assets/image009.jpg" alt="Feedback Icon" style="width: 50px; height: 50px;">
+            <h2 class="feedback-title">Help us make Design Mind better</h2>
+            <p>What topics would you like to see in future issues? Is there anything we can do to improve your Design Mind experience? We look forward to your feedback!</p>
+            <a href="#" class="feedback-button">Open feedback form →</a>
+        </div>
+
     </div>
 </body>
 </html>
