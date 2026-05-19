@@ -1,0 +1,24 @@
+{
+  "name": "design-mind",
+  "version": "1.0.0",
+  "description": "Welcome to the Design Mind Newsletter repository!",
+  "main": "index.js",
+  "scripts": {
+    "build": "mjml index.mjml -o index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lebachtin1013/design-mind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lebachtin1013/design-mind/issues"
+  },
+  "homepage": "https://github.com/lebachtin1013/design-mind#readme",
+  "devDependencies": {
+    "mjml": "^5.2.2"
+  }
+}

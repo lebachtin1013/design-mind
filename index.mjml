@@ -1,0 +1,155 @@
+<mjml>
+  <mj-head>
+    <mj-title>Design Mind Newsletter</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Segoe UI, Helvetica, Arial, sans-serif" />
+      <mj-text font-size="14px" color="#333333" line-height="24px" />
+      <mj-section background-color="#ffffff" padding="20px 0" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-bg { background-color: #E7E6E6; }
+      .article-card { background-color: #ffffff; border-radius: 8px; overflow: hidden; margin-bottom: 20px; }
+      .footer { background-color: #BDD6EE; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#E7E6E6" width="800px">
+    
+    <!-- Hero Image -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image src="assets/image001.jpg" alt="Design Mind" padding="0" width="800px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Intro Text -->
+    <mj-section padding="20px 40px">
+      <mj-column>
+        <mj-text font-size="16px" align="center" font-style="italic" color="#555555">
+          Ever wondered how Techcombank's user experience and interfaces are being crafted? Design Mind is your invitation to peek behind the curtain, curated by the Design Centre of Excellence.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Article -->
+    <mj-section padding="0 40px">
+      <mj-column css-class="article-card">
+        <mj-text font-size="24px" font-weight="bold" color="#000000">
+          The economics of a design system: why investing in one pays off
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="0">
+          Hiep Dang
+        </mj-text>
+        <mj-image src="assets/image002.jpg" alt="Economics of a design system" padding="0" />
+        <mj-text>
+          A Design System not only accelerates product delivery but also strengthens your position in the market. Investing in a Design System is not just about keeping up; it's about leading the way.
+        </mj-text>
+        <mj-button href="#" background-color="#0563C1" color="white" align="left">
+          Go to article
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sub Articles -->
+    <!-- Article 1 -->
+    <mj-section padding="10px 40px">
+      <mj-column width="40%">
+        <mj-image src="assets/image003.jpg" alt="Experience Design" padding="0" fluid-on-mobile="true" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text font-size="18px" font-weight="bold" color="#000000" padding-top="0">
+          Experience Design as a key ingredient for MOA MFT
+        </mj-text>
+        <mj-text font-size="12px" color="#888888" padding-top="0" padding-bottom="0">
+          Thuy Water
+        </mj-text>
+        <mj-text padding-top="10px">
+          Our problem-solvers–designers and researchers powered up MOA MFT. Wonder how?
+        </mj-text>
+        <mj-button href="#" background-color="#0563C1" color="white" align="left" padding-top="0">
+          Go to article
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Article 2 -->
+    <mj-section padding="10px 40px">
+      <mj-column width="40%">
+        <mj-image src="assets/image004.jpg" alt="DCoE Workshop" padding="0" fluid-on-mobile="true" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text font-size="18px" font-weight="bold" color="#000000" padding-top="0">
+          DCoE Workshop: Shedding light on Social Psychology
+        </mj-text>
+        <mj-text font-size="12px" color="#888888" padding-top="0" padding-bottom="0">
+          Huong Do
+        </mj-text>
+        <mj-text padding-top="10px">
+          An engaging and educational Saturday morning, facilitated by the young and talented UX Designer Nguyen Kim Cuong
+        </mj-text>
+        <mj-button href="#" background-color="#0563C1" color="white" align="left" padding-top="0">
+          Go to article
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Article 3 -->
+    <mj-section padding="10px 40px">
+      <mj-column width="40%">
+        <mj-image src="assets/image005.jpg" alt="Empowering TCInvest" padding="0" fluid-on-mobile="true" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text font-size="18px" font-weight="bold" color="#000000" padding-top="0">
+          Empowering TCInvest's innovation journey through research
+        </mj-text>
+        <mj-text font-size="12px" color="#888888" padding-top="0" padding-bottom="0">
+          Hanh Nguyen
+        </mj-text>
+        <mj-text padding-top="10px">
+          Recognising the navigation difficulties users faced, TCInvest sought DCoE's expertise to tackle this challenge head-on
+        </mj-text>
+        <mj-button href="#" background-color="#0563C1" color="white" align="left" padding-top="0">
+          Go to article
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Upcoming Event -->
+    <mj-section padding="20px 40px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#0563C1">
+          <img src="assets/image006.jpg" width="24" style="vertical-align: middle; margin-right: 10px;" /> Upcoming Event
+        </mj-text>
+        <mj-image src="assets/image008.gif" alt="Upcoming Event" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Share your thoughts -->
+    <mj-section padding="20px 40px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#0563C1">
+          <img src="assets/image009.jpg" width="24" style="vertical-align: middle; margin-right: 10px;" /> Share your thoughts
+        </mj-text>
+        <mj-image src="assets/image011.gif" alt="Share your thoughts" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section css-class="footer" padding="40px" background-color="#BDD6EE">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" color="#000000" align="center">
+          Help us make Design Mind better
+        </mj-text>
+        <mj-text font-size="16px" font-weight="bold" align="center" color="#000000">
+          What topics would you like to see in future issues?
+        </mj-text>
+        <mj-text align="center" color="#000000">
+          Is there anything we can do to improve your Design Mind experience? We look forward to your feedback!
+        </mj-text>
+        <mj-button href="#" background-color="#000000" color="white" align="center">
+          Open feedback form
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
