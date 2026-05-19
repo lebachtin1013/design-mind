@@ -1,4 +1,4 @@
 {
-  "buildCommand": "mjml index.mjml -o public/index.html && cp -r assets public/",
+  "buildCommand": "mkdir -p public && mjml index.mjml -o public/index.html && cp -r assets public/",
   "outputDirectory": "public"
 }
